@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Space+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.w-70 {
+  width: 50%;
+}
+.spacing-a-1 {
+  padding: 1rem;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Space Mono";
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.container {
+  background-image: linear-gradient(135deg, #0078ff, #00c9ff);
+  height: 50vh;
+  margin: 10% auto;
+  border-radius: 1rem;
+}
+
+p {
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 1023px) {
+  .container h1 {
+    font-size: 30px;
+  }
+}
