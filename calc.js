@@ -108,6 +108,8 @@
 // console.log (Math.ceil((divAll(num1, num2))));
 
 
+
+
 function myCalc(){
 
   
